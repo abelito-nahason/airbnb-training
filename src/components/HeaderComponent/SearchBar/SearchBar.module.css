@@ -1,0 +1,10 @@
+
+.focusBehaviour {
+    @apply 
+    hover:bg-gray-200
+    focus:bg-white 
+    focus:shadow-md 
+    focus-within:!bg-white
+    focus-within:shadow-md
+    pointer-events-auto 
+}
